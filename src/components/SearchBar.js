@@ -21,6 +21,7 @@ class SearchBar extends React.Component {
             <input 
               type="text" 
               value={this.state.term}
+              placeholder="Search text here"
               onChange={this.onInputChange}
             />
           </div>
